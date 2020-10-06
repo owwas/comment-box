@@ -1,0 +1,9 @@
+<textarea [(ngModel)]="comment"></textarea>
+<br />
+<button (click)="post()">Comment</button>
+<hr />
+<div *ngFor="let comments of postComment">
+  <p>
+    {{ comment }}
+  </p>
+</div>
